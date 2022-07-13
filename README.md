@@ -1,4 +1,4 @@
-# AndroidEqualizer   [![](https://jitpack.io/v/mosamabinomar/AndroidEqualizer.svg)](https://jitpack.io/#mosamabinomar/AndroidEqualizer)
+# AndroidEqualizer   [![](https://jitpack.io/v/AbrahamWisman/AndroidEqualizer.svg)](https://jitpack.io/#AbrahamWisman/AndroidEqualizer)
 
 Android Equalizer View that can also manage the audio track frequencies 
 
