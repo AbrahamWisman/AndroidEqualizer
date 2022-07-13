@@ -425,6 +425,20 @@ public class DialogEqualizerFragment extends DialogFragment {
 
     }
 
+    public void release(){
+        if (mEqualizer != null) {
+            mEqualizer.release();
+        }
+
+        if (bassBoost != null) {
+            bassBoost.release();
+        }
+
+        if (presetReverb != null) {
+            presetReverb.release();
+        }
+    }
+
 
     public TextView getTitleTextView() {
         return titleTextView;
@@ -499,17 +513,7 @@ public class DialogEqualizerFragment extends DialogFragment {
     public void onDestroy() {
         super.onDestroy();
 
-        if (mEqualizer != null) {
-            mEqualizer.release();
-        }
 
-        if (bassBoost != null) {
-            bassBoost.release();
-        }
-
-        if (presetReverb != null) {
-            presetReverb.release();
-        }
 
         Settings.isEditing = false;
 
